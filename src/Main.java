@@ -7,5 +7,14 @@ public class Main {
 
         HashMap<String, Integer> empIds = new HashMap<>();
 
+        empIds.put("John", 12345);
+        empIds.put("Carl", 54321);
+        empIds.put("Jerry", 9864);
+        empIds.put("Edwin", 86942);
+
+        System.out.println(empIds);
+        System.out.println(empIds.get("Carl"));
+        System.out.println(empIds.containsKey("Carl"));
+
     }
 }
